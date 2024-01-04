@@ -88,7 +88,7 @@ DATABASES = {
         'NAME' : 'placementdb',
         'USER' : 'postgres',
         'PASSWORD' : '6989',
-        'HOST' : 'localhost',
+        'HOST' : '127.0.0.1',
     }
 }   
 

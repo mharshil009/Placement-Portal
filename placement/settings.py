@@ -84,7 +84,8 @@ WSGI_APPLICATION = 'placement.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.postgresql',
+        # 'ENGINE': 'django.db.backends.postgresql',
+        'ENGINE': 'placementdb.c7yiaoo6if4u.ap-northeast-1.rds.amazonaws.com',
         'NAME' : 'placementdb',
         'USER' : 'postgres',
         'PASSWORD' : 'Mharshil009@',

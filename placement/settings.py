@@ -87,8 +87,8 @@ DATABASES = {
         # 'ENGINE': 'django.db.backends.postgresql',
         'ENGINE': 'placementdb.c7yiaoo6if4u.ap-northeast-1.rds.amazonaws.com',
         'NAME' : 'placementdb',
-        'USER' : 'postgres',
-        'PASSWORD' : 'Mharshil009@',
+        'USER' : 'mysuperuser',
+        'PASSWORD' : 'mysuperuser',
         'HOST' : 'localhost',
         'PORT' : '5432',
     }
